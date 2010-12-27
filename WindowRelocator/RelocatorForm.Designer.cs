@@ -28,92 +28,98 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.relocateButton = new Telerik.WinControls.UI.RadButton();
-			this.windowDropDownList = new Telerik.WinControls.UI.RadDropDownList();
-			this.radLabel1 = new Telerik.WinControls.UI.RadLabel();
-			this.radLabel2 = new Telerik.WinControls.UI.RadLabel();
-			this.screenDropDownList = new Telerik.WinControls.UI.RadDropDownList();
-			this.radLabel3 = new Telerik.WinControls.UI.RadLabel();
-			this.radLabel4 = new Telerik.WinControls.UI.RadLabel();
-			this.radLabel5 = new Telerik.WinControls.UI.RadLabel();
+			this.radButtonRelocate = new Telerik.WinControls.UI.RadButton();
+			this.radDropDownListWindow = new Telerik.WinControls.UI.RadDropDownList();
+			this.radLabelWindow = new Telerik.WinControls.UI.RadLabel();
+			this.radLabelScreen = new Telerik.WinControls.UI.RadLabel();
+			this.radDropDownListScreen = new Telerik.WinControls.UI.RadDropDownList();
+			this.radLabelOffset = new Telerik.WinControls.UI.RadLabel();
+			this.radLabelX = new Telerik.WinControls.UI.RadLabel();
+			this.radLabelY = new Telerik.WinControls.UI.RadLabel();
 			this.radTextBoxX = new Telerik.WinControls.UI.RadTextBox();
 			this.radTextBoxY = new Telerik.WinControls.UI.RadTextBox();
-			((System.ComponentModel.ISupportInitialize)(this.relocateButton)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.windowDropDownList)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.radLabel1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.radLabel2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.screenDropDownList)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.radLabel3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.radLabel4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.radLabel5)).BeginInit();
+			this.radButtonRefresh = new Telerik.WinControls.UI.RadButton();
+			this.radCheckBoxRemoveTitle = new Telerik.WinControls.UI.RadCheckBox();
+			this.radLabelRemoveTitle = new Telerik.WinControls.UI.RadLabel();
+			((System.ComponentModel.ISupportInitialize)(this.radButtonRelocate)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.radDropDownListWindow)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.radLabelWindow)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.radLabelScreen)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.radDropDownListScreen)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.radLabelOffset)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.radLabelX)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.radLabelY)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.radTextBoxX)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.radTextBoxY)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.radButtonRefresh)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.radCheckBoxRemoveTitle)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.radLabelRemoveTitle)).BeginInit();
 			this.SuspendLayout();
 			// 
-			// relocateButton
+			// radButtonRelocate
 			// 
-			this.relocateButton.Location = new System.Drawing.Point(12, 90);
-			this.relocateButton.Name = "relocateButton";
-			this.relocateButton.Size = new System.Drawing.Size(430, 70);
-			this.relocateButton.TabIndex = 0;
-			this.relocateButton.Text = "Relocate";
-			this.relocateButton.Click += new System.EventHandler(this.relocateButton_Click);
+			this.radButtonRelocate.Location = new System.Drawing.Point(98, 90);
+			this.radButtonRelocate.Name = "radButtonRelocate";
+			this.radButtonRelocate.Size = new System.Drawing.Size(344, 70);
+			this.radButtonRelocate.TabIndex = 0;
+			this.radButtonRelocate.Text = "Relocate";
+			this.radButtonRelocate.Click += new System.EventHandler(this.radButtonRelocate_Click);
 			// 
-			// windowDropDownList
+			// radDropDownListWindow
 			// 
-			this.windowDropDownList.Location = new System.Drawing.Point(75, 12);
-			this.windowDropDownList.Name = "windowDropDownList";
-			this.windowDropDownList.Size = new System.Drawing.Size(367, 20);
-			this.windowDropDownList.TabIndex = 1;
-			this.windowDropDownList.Text = "none";
+			this.radDropDownListWindow.Location = new System.Drawing.Point(75, 12);
+			this.radDropDownListWindow.Name = "radDropDownListWindow";
+			this.radDropDownListWindow.Size = new System.Drawing.Size(367, 20);
+			this.radDropDownListWindow.TabIndex = 1;
+			this.radDropDownListWindow.Text = "none";
 			// 
-			// radLabel1
+			// radLabelWindow
 			// 
-			this.radLabel1.Location = new System.Drawing.Point(19, 15);
-			this.radLabel1.Name = "radLabel1";
-			this.radLabel1.Size = new System.Drawing.Size(50, 16);
-			this.radLabel1.TabIndex = 2;
-			this.radLabel1.Text = "Window:";
+			this.radLabelWindow.Location = new System.Drawing.Point(19, 15);
+			this.radLabelWindow.Name = "radLabelWindow";
+			this.radLabelWindow.Size = new System.Drawing.Size(50, 16);
+			this.radLabelWindow.TabIndex = 2;
+			this.radLabelWindow.Text = "Window:";
 			// 
-			// radLabel2
+			// radLabelScreen
 			// 
-			this.radLabel2.Location = new System.Drawing.Point(24, 41);
-			this.radLabel2.Name = "radLabel2";
-			this.radLabel2.Size = new System.Drawing.Size(45, 16);
-			this.radLabel2.TabIndex = 3;
-			this.radLabel2.Text = "Screen:";
+			this.radLabelScreen.Location = new System.Drawing.Point(24, 41);
+			this.radLabelScreen.Name = "radLabelScreen";
+			this.radLabelScreen.Size = new System.Drawing.Size(45, 16);
+			this.radLabelScreen.TabIndex = 3;
+			this.radLabelScreen.Text = "Screen:";
 			// 
-			// screenDropDownList
+			// radDropDownListScreen
 			// 
-			this.screenDropDownList.Location = new System.Drawing.Point(75, 38);
-			this.screenDropDownList.Name = "screenDropDownList";
-			this.screenDropDownList.Size = new System.Drawing.Size(367, 20);
-			this.screenDropDownList.TabIndex = 4;
-			this.screenDropDownList.Text = "none";
+			this.radDropDownListScreen.Location = new System.Drawing.Point(75, 38);
+			this.radDropDownListScreen.Name = "radDropDownListScreen";
+			this.radDropDownListScreen.Size = new System.Drawing.Size(367, 20);
+			this.radDropDownListScreen.TabIndex = 4;
+			this.radDropDownListScreen.Text = "none";
 			// 
-			// radLabel3
+			// radLabelOffset
 			// 
-			this.radLabel3.Location = new System.Drawing.Point(24, 65);
-			this.radLabel3.Name = "radLabel3";
-			this.radLabel3.Size = new System.Drawing.Size(40, 16);
-			this.radLabel3.TabIndex = 5;
-			this.radLabel3.Text = "Offset:";
+			this.radLabelOffset.Location = new System.Drawing.Point(24, 65);
+			this.radLabelOffset.Name = "radLabelOffset";
+			this.radLabelOffset.Size = new System.Drawing.Size(40, 16);
+			this.radLabelOffset.TabIndex = 5;
+			this.radLabelOffset.Text = "Offset:";
 			// 
-			// radLabel4
+			// radLabelX
 			// 
-			this.radLabel4.Location = new System.Drawing.Point(75, 65);
-			this.radLabel4.Name = "radLabel4";
-			this.radLabel4.Size = new System.Drawing.Size(17, 16);
-			this.radLabel4.TabIndex = 6;
-			this.radLabel4.Text = "X:";
+			this.radLabelX.Location = new System.Drawing.Point(75, 65);
+			this.radLabelX.Name = "radLabelX";
+			this.radLabelX.Size = new System.Drawing.Size(17, 16);
+			this.radLabelX.TabIndex = 6;
+			this.radLabelX.Text = "X:";
 			// 
-			// radLabel5
+			// radLabelY
 			// 
-			this.radLabel5.Location = new System.Drawing.Point(204, 65);
-			this.radLabel5.Name = "radLabel5";
-			this.radLabel5.Size = new System.Drawing.Size(17, 16);
-			this.radLabel5.TabIndex = 7;
-			this.radLabel5.Text = "Y:";
+			this.radLabelY.Location = new System.Drawing.Point(204, 65);
+			this.radLabelY.Name = "radLabelY";
+			this.radLabelY.Size = new System.Drawing.Size(17, 16);
+			this.radLabelY.TabIndex = 7;
+			this.radLabelY.Text = "Y:";
 			// 
 			// radTextBoxX
 			// 
@@ -133,36 +139,67 @@
 			this.radTextBoxY.TabStop = false;
 			this.radTextBoxY.Text = "0";
 			// 
+			// radButtonRefresh
+			// 
+			this.radButtonRefresh.Location = new System.Drawing.Point(13, 90);
+			this.radButtonRefresh.Name = "radButtonRefresh";
+			this.radButtonRefresh.Size = new System.Drawing.Size(79, 70);
+			this.radButtonRefresh.TabIndex = 10;
+			this.radButtonRefresh.Text = "Refresh Windows";
+			this.radButtonRefresh.TextWrap = true;
+			this.radButtonRefresh.Click += new System.EventHandler(this.radButtonRefresh_Click);
+			// 
+			// radCheckBoxRemoveTitle
+			// 
+			this.radCheckBoxRemoveTitle.Location = new System.Drawing.Point(413, 66);
+			this.radCheckBoxRemoveTitle.Name = "radCheckBoxRemoveTitle";
+			this.radCheckBoxRemoveTitle.Size = new System.Drawing.Size(15, 15);
+			this.radCheckBoxRemoveTitle.TabIndex = 11;
+			this.radCheckBoxRemoveTitle.ToggleState = Telerik.WinControls.Enumerations.ToggleState.On;
+			// 
+			// radLabelRemoveTitle
+			// 
+			this.radLabelRemoveTitle.Location = new System.Drawing.Point(333, 66);
+			this.radLabelRemoveTitle.Name = "radLabelRemoveTitle";
+			this.radLabelRemoveTitle.Size = new System.Drawing.Size(76, 16);
+			this.radLabelRemoveTitle.TabIndex = 12;
+			this.radLabelRemoveTitle.Text = "Remove Title:";
+			// 
 			// RelocatorForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(454, 170);
+			this.Controls.Add(this.radLabelRemoveTitle);
+			this.Controls.Add(this.radCheckBoxRemoveTitle);
+			this.Controls.Add(this.radButtonRefresh);
 			this.Controls.Add(this.radTextBoxY);
 			this.Controls.Add(this.radTextBoxX);
-			this.Controls.Add(this.radLabel5);
-			this.Controls.Add(this.radLabel4);
-			this.Controls.Add(this.radLabel3);
-			this.Controls.Add(this.screenDropDownList);
-			this.Controls.Add(this.radLabel2);
-			this.Controls.Add(this.radLabel1);
-			this.Controls.Add(this.windowDropDownList);
-			this.Controls.Add(this.relocateButton);
+			this.Controls.Add(this.radLabelY);
+			this.Controls.Add(this.radLabelX);
+			this.Controls.Add(this.radLabelOffset);
+			this.Controls.Add(this.radDropDownListScreen);
+			this.Controls.Add(this.radLabelScreen);
+			this.Controls.Add(this.radLabelWindow);
+			this.Controls.Add(this.radDropDownListWindow);
+			this.Controls.Add(this.radButtonRelocate);
 			this.MaximumSize = new System.Drawing.Size(470, 300);
 			this.MinimumSize = new System.Drawing.Size(470, 208);
 			this.Name = "RelocatorForm";
 			this.Text = "Window Relocator";
-			this.Activated += new System.EventHandler(this.RelocatorForm_Activated);
-			((System.ComponentModel.ISupportInitialize)(this.relocateButton)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.windowDropDownList)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.radLabel1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.radLabel2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.screenDropDownList)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.radLabel3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.radLabel4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.radLabel5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.radButtonRelocate)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.radDropDownListWindow)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.radLabelWindow)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.radLabelScreen)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.radDropDownListScreen)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.radLabelOffset)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.radLabelX)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.radLabelY)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.radTextBoxX)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.radTextBoxY)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.radButtonRefresh)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.radCheckBoxRemoveTitle)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.radLabelRemoveTitle)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -170,16 +207,19 @@
 
 		#endregion
 
-		private Telerik.WinControls.UI.RadButton relocateButton;
-		private Telerik.WinControls.UI.RadDropDownList windowDropDownList;
-		private Telerik.WinControls.UI.RadLabel radLabel1;
-		private Telerik.WinControls.UI.RadLabel radLabel2;
-		private Telerik.WinControls.UI.RadDropDownList screenDropDownList;
-		private Telerik.WinControls.UI.RadLabel radLabel3;
-		private Telerik.WinControls.UI.RadLabel radLabel4;
-		private Telerik.WinControls.UI.RadLabel radLabel5;
+		private Telerik.WinControls.UI.RadButton radButtonRelocate;
+		private Telerik.WinControls.UI.RadDropDownList radDropDownListWindow;
+		private Telerik.WinControls.UI.RadLabel radLabelWindow;
+		private Telerik.WinControls.UI.RadLabel radLabelScreen;
+		private Telerik.WinControls.UI.RadDropDownList radDropDownListScreen;
+		private Telerik.WinControls.UI.RadLabel radLabelOffset;
+		private Telerik.WinControls.UI.RadLabel radLabelX;
+		private Telerik.WinControls.UI.RadLabel radLabelY;
 		private Telerik.WinControls.UI.RadTextBox radTextBoxX;
 		private Telerik.WinControls.UI.RadTextBox radTextBoxY;
+		private Telerik.WinControls.UI.RadButton radButtonRefresh;
+		private Telerik.WinControls.UI.RadCheckBox radCheckBoxRemoveTitle;
+		private Telerik.WinControls.UI.RadLabel radLabelRemoveTitle;
 	}
 }
 
