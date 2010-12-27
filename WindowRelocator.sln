@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelocatorClassLibrary", "Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowRelocator", "WindowRelocator\WindowRelocator.csproj", "{F8CEE808-51E6-4581-9763-6C5E72878C4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_FoundationClassLibrary", "..\Visual Studio Projects\Foundation\FoundationClassLibrary\_FoundationClassLibrary.csproj", "{A3F2791F-F80E-498F-95C6-9B8D556B5960}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_FoundationClassLibrary", "..\Foundation\FoundationClassLibrary\_FoundationClassLibrary.csproj", "{A3F2791F-F80E-498F-95C6-9B8D556B5960}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
